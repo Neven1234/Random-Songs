@@ -1,0 +1,51 @@
+#bgg{
+	background-repeat: no-repeat;
+    background-size: 1550px 720px;
+    background-position: top;
+    background-attachment: fixed;
+}
+ 
+  
+ #logo{
+    	}
+    	body{
+    	  background-color: #ebeff5;
+        }
+
+        #Classic{
+        	background-color: #9565AA;
+        }	
+
+        #Pop{
+        	background-color: #9565AA;
+        }
+
+        #Hip-hop{
+        	background-color: #9565AA;
+        }
+#row1{
+    background-color: #5C508E;
+}
+table{
+        border-color:  #5C508E;
+        background-color: #B987B3;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    a:link {
+        color:#36F4DA;
+    }
+    a:visited
+    {
+        color:#36F4DA;
+    }
+
+#bt{
+    background-color: #36F4DA
+    color:white;
+    text-align: center;
+}

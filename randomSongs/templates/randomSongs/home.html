@@ -1,0 +1,35 @@
+{% extends 'randomSongs/main.html' %}	
+
+{% block content %}
+{% include 'randomSongs/Types.html' %}
+<br>
+<div style="text-align:center;" class="row">
+	<div style="text-align:center;" class="col-md-5">
+		<h3 style=" color: #6495ED" > Ther Random Song you got </h3>
+		<hr>
+		<div>
+			<form action="" method="post">
+				{% csrf_token %}
+   				<button style="background-color: #5D5DD5 ;color:white;
+    text-align: center;" >Get your song</button>
+			</form>
+			
+		</div>
+		<div>
+			<table border=5px   class="table table-sm" >
+				<tr id="row1">
+					<th>Songe Name</th>
+					<th>Linke</th>
+				</tr>
+				<tr>
+					<td> {{Rsong.name}}</td>
+					<td><a href="{{Rsong.link}}">Spotify</a> </td>
+				</tr>
+
+			</table>
+		</div>
+		
+	</div>
+
+</div>
+{% endblock %}
